@@ -15,3 +15,14 @@ git init (from folder)
 git remote add origin https://github.com/bgramling/gitlearn
 
 git remote set-url origin https://github.com/bgramling/gitlearn (changed)
+
+# Pushing to repo
+
+git status
+
+git add .
+
+git commit -m 'Test Commit'
+
+git push origin master
+
