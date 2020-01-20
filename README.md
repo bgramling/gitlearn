@@ -26,3 +26,16 @@ git commit -m 'Test Commit'
 
 git push origin master
 
+# Changes
+
+git diff
+
+#Permanently authenticating with Git Repos
+
+git config credential.helper store
+
+git push https://github.com/bgramling/gitlearn.git
+
+cache expire (seconds)
+git config --global credential.helper "cache --timeout 7200"
+
