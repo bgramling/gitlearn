@@ -30,7 +30,9 @@ git push origin master
 
 git diff
 
-#Permanently authenticating with Git Repos
+git log
+
+# Permanently authenticating with Git Repos
 
 git config credential.helper store
 
@@ -39,3 +41,9 @@ git push https://github.com/bgramling/gitlearn.git
 cache expire (seconds)
 git config --global credential.helper "cache --timeout 7200"
 
+# Reverting changes
+
+git checkout -- .  (uncommitted)
+
+git revert commit-num (committed)
+-- can get from git log
