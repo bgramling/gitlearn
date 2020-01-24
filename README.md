@@ -51,3 +51,17 @@ git revert commit-num (committed)
 git reset --hard (resetting changes)
 
 
+# Branching
+
+git branch
+
+git branch test-branch
+
+git checkout -b test-branch (create and make active)
+
+git merge test-branch (merge branch in current active branch)
+
+git branch -d test-branch (delete branch)
+
+
+
