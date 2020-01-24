@@ -47,3 +47,7 @@ git checkout -- .  (uncommitted)
 
 git revert commit-num (committed)
 -- can get from git log
+
+git reset --hard (resetting changes)
+
+
