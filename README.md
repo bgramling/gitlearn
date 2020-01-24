@@ -61,9 +61,16 @@ git checkout -b test-branch (create and make active)
 
 git merge test-branch (merge branch in current active branch)
 
+git push origin test-branch
+
+
+# Deleting Branch
+
 git branch -d test-branch (delete branch)
 
-git push origin test-branch
+git branch -D test-branch (delete from local, useful if have unmerged)
+
+git push origin :test-branch (delete from remote)
 
 
 
