@@ -63,5 +63,7 @@ git merge test-branch (merge branch in current active branch)
 
 git branch -d test-branch (delete branch)
 
+git push origin test-branch
+
 
 
