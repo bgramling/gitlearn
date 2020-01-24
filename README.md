@@ -73,4 +73,6 @@ git branch -D test-branch (delete from local, useful if have unmerged)
 git push origin :test-branch (delete from remote)
 
 
+# Checkout remote branch
 
+git fetch & git checkout xyz
