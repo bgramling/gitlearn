@@ -76,3 +76,8 @@ git push origin :test-branch (delete from remote)
 # Checkout remote branch
 
 git fetch & git checkout xyz
+
+
+# Ignoring files
+
+.gitignore
