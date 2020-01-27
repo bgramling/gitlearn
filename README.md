@@ -81,3 +81,18 @@ git fetch & git checkout xyz
 # Ignoring files
 
 .gitignore
+
+# Stashing
+
+git stash save "stash name"
+
+git stash list
+
+git stash apply {unique_id}
+-- example git stash apply stash@{0}
+
+git stash drop {unique_id}
+
+git stash pop
+
+git stash clear
